@@ -13,7 +13,7 @@ load_dotenv()
 
 app = FastAPI()
 
-openai.api_key = "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"
+openai.api_key = "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"
 DEFAULT_TEMPERATURE = 0.7
 DEFAULT_MAX_TOKENS = 3900
 
