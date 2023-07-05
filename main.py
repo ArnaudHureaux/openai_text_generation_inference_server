@@ -13,6 +13,7 @@ load_dotenv()
 
 app = FastAPI()
 
+# openai.api_key = "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"
 openai.api_key = os.getenv('OPENAI_KEY')
 
 DEFAULT_TEMPERATURE = 0.7
